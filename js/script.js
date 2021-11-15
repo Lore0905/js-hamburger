@@ -1,12 +1,12 @@
 
 // seleziono le classi che dovrò modificare
-const burgerMenu = document.querySelector('.fa-bars');
+const burgerMenu = document.querySelector('a>.fa-bars');
 
 
 burgerMenu.addEventListener('click',
     function() {
         let navBurger = document.querySelector('.hamburger-menu');
-        navBurger.classList.add('d-block');
+        navBurger.classList.add('active');
     }
 );
 
@@ -17,6 +17,6 @@ const closeBurgerMenu = document.querySelector('.close');
 closeBurgerMenu.addEventListener('click',
     function() {
         let navBurger = document.querySelector('.hamburger-menu');
-        navBurger.classList.add('d-none');
+        navBurger.classList.remove('active');
     }
 );
