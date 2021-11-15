@@ -84,6 +84,12 @@ header {
     font-size: 35px;
     text-decoration: none;
 }
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
 @media screen and (max-width: 1000px)
 {
     .header-right ul {
